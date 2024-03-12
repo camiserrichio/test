@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&family=Zen+Kaku+Gothic+New:wght@300;400&display=swap');
+
+/* .zen-kaku gothic new-light {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .zen-kaku gothic new-regular {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  // <uniquifier>: Use a unique and descriptive class name
+
+  .inconsolata-<uniquifier> {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  } */
+
+body {
+    margin: 0;
+    font-family: "Inconsolata", monospace;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.different-font{
+    font-family: "zen-kaku gothic", new-regular;
+    font-weight: 400;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #c778bc;
+    /* Color lila personalizado navbar */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #FFFF51;
+    /* Cambia el color al color amarillo al pasar el mouse sobre los enlaces */
+}
+
+.custom-navbar {
+    background-color: #ffffff;
+    height: 120px;
+}
+
+.carousel-img {
+    width: 700px;
+    height: 700px;
+    /* Altura deseada del carrusel */
+    object-fit: scale-down;
+    /* Ajusta la imagen sin deformarla */
+}
+
+/* Estilos personalizados para los botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #c778bc;
+    /* Color del texto */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    color: #07917e;
+    /* Color del texto */
+}
+
+.carousel-control-prev-icon {
+    color: aquamarine !important;
+}
+
+.target-section {
+    padding-top: 250px;
+    align-items: center;
+}
+
+.bi.bi-arrow-down-circle {
+    font-size: 40px;
+    margin: 250px;
+    color: #000000be;
+}
+
+.icon-circle:hover .bi.bi-arrow-down-circle {
+    color: #c778bc;
+    /* Hover color */
+}
+
+.icon-circle:active .bi.bi-arrow-down-circle {
+    color: #FFFF51;
+    /* Click color */
+}
+
+.texto-inicio {
+    display: justify;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Columnas */
+.col-sm-4,
+.col-sm-5,
+.col-sm-7 {
+    flex: 1 0 auto;
+    /* Ajustar el ancho de las columnas automáticamente */
+    padding: 10px;
+    /* Añadir espacio entre las columnas */
+}
+
+.col-sm-6{
+    flex: 1 0 auto;
+    /* Ajustar el ancho de las columnas automáticamente */
+    padding: 40px;
+}
+
+.img-thumbnail {
+    width: 100%;
+    /* Ajustar el ancho de las imágenes al ancho de la columna */
+    height: auto;
+    /* Mantener la altura proporcional de las imágenes */
+}
+
+.texto-mas-productos {
+    padding-left: 1000px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    font-size: relative;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.bi.bi.bi-arrow-right-short {
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #c778bc;
+    color: #f8f9fa;
+    height: 300px;
+}
+
+.footer a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer .input-group {
+    width: 60%;
+}
+
+.footer .btn-primary {
+    background-color: #07917e;
+    border-color: #07917e;
+}
+
+.footer .btn-primary:hover {
+    background-color: #FFFF51;
+    border-color: #FFFF51;
+}
+
+.footer .fa-lg {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.footer input[type="email"] {
+    padding-left: 20px;
+}
+
+.footer .row {
+    margin-left: 150px;
+}
+
+.footer .text-light {
+    text-align: center;
+}
